@@ -18,7 +18,7 @@ const AwardsPage = () => {
       description: 'Certificado recebido após completar um curso técnico no Senac em Redes de Computadores.',
     },
     {
-      title: 'Técnico em Informática',
+      title: 'Certificado - Técnico em Informática',
       year: 2022,
       description: 'Certificado recebido após completar um curso técnico no Senac em Técnico em Informática.',
     },
@@ -60,7 +60,7 @@ const AwardsPage = () => {
   ];
 
   return (
-    <section className="py-16 bg-[#f0f0f0f0] text-gray-800">
+    <section id='awards' className="py-16 bg-[#f0f0f0f0] text-gray-800">
       <div className="container mx-auto text-center px-4">
         <h2 className="text-3xl sm:text-4xl text-[#696969] md:text-5xl font-bold mb-8">Certificados e Reconhecimentos</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 cursor-pointer">

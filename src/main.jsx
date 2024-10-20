@@ -9,6 +9,7 @@ import Home from './pages/Home.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
 import About from './components/About.jsx';
 import AwardsPage from './components/Award.jsx'; // Se você deseja utilizar esta página em alguma rota futura
+import GoogleForm from './components/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,12 +22,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "#contact",
+        element: <GoogleForm />,
+      },
+      {
         path: "/about",
         element: <About />,
       },
       // Seção de Certificações pode ser colocada aqui se for página independente
       {
-        path: "/awards",
+        path: "#awards",
         element: <AwardsPage />,
       },
     ],

@@ -124,7 +124,7 @@ const About = () => {
         <AwardsPage />
       </section>
 
-      <hr style={{ background: 'black' }} />
+      <hr   />
 
       {/* Seção Projetos */}
       <section>
