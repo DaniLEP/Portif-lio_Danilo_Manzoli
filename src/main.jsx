@@ -8,8 +8,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import ErrorPage from './components/ErrorPage.jsx';
 import About from './components/About.jsx';
-import AwardsPage from './components/Award.jsx'; // Se você deseja utilizar esta página em alguma rota futura
-import GoogleForm from './components/Contact.jsx';
+import AwardsPage from './components/Award.jsx'; // Página de prêmios/certificações
+import GoogleForm from './components/Contact.jsx'; // Página de contato
 
 const router = createBrowserRouter([
   {
@@ -22,16 +22,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "#contact",
+        path: "contact", // Remove o hash (#), pois é uma rota válida
         element: <GoogleForm />,
       },
       {
-        path: "/about",
+        path: "about",
         element: <About />,
       },
-      // Seção de Certificações pode ser colocada aqui se for página independente
       {
-        path: "#awards",
+        path: "awards", // Remove o hash (#), pois é uma rota válida
         element: <AwardsPage />,
       },
     ],
