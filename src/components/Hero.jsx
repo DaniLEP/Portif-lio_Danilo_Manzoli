@@ -48,7 +48,7 @@ export default function Hero() {
       <h1 style={styles.h1}>Hello, my name is Danilo Manzoli!</h1>
       <p style={styles.p}>Front-End Developer | I.T - Developer at Instituto Reciclar</p>
       <a
-        href="/about"
+        href="/about/"
         style={styles.a}
         onMouseOver={(e) => (e.target.style.backgroundColor = styles.aHover.backgroundColor)}
         onMouseOut={(e) => (e.target.style.backgroundColor = styles.a.backgroundColor)}

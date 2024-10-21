@@ -22,15 +22,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "contact", // Remove o hash (#), pois é uma rota válida
+        path: "/contact", // Remove o hash (#), pois é uma rota válida
         element: <GoogleForm />,
       },
       {
-        path: "about",
+        path: "/about",
         element: <About />,
       },
       {
-        path: "awards", // Remove o hash (#), pois é uma rota válida
+        path: "/awards", // Remove o hash (#), pois é uma rota válida
         element: <AwardsPage />,
       },
     ],
