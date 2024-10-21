@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <GoogleForm />,
       },
       {
-        path: "/about",
+        path: "/about/",
         element: <About />,
       },
       {
