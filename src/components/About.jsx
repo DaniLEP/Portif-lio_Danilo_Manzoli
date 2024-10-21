@@ -79,7 +79,7 @@ const About = () => {
       <br />
 
       {/* Seção Sobre Mim */}
-      <section className="py-20 bg-[#f0f0f0]">
+      <section id="about" className="py-20 bg-[#f0f0f0]">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className="relative mb-10 md:mb-0 md:w-1/2">
             <img
