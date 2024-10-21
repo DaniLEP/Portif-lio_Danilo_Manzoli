@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-4">Links Rápidos</h4>
             <ul>
-              <li><a href="/about" className="hover:underline">Sobre Mim</a></li>
+              <li><a href="#about" className="hover:underline">Sobre Mim</a></li>
               <li><a href="#awards" className="hover:underline">Certificações</a></li>
               <li><a href="#projects" className="hover:underline">Projetos</a></li>
               <li><a href="#contact" className="hover:underline">Contato</a></li>
